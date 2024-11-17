@@ -1,111 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="style.css"> --> <!-- uncomment styles --> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="container" class="container">
-        <div class="profile-folder">
-          <div class="folder">
-            <div class="title">
-              Yaba Kawaii Studio
-              <span class="title-btn">
-                <span class="btn1"></span>
-                <span class="btn2"></span>
-                <span class="btn3"></span>
-              </span>
-            </div>
-
-            <div class="body">
-              <div class="profile-icon-box">
-                <p id="typeText"></p>
-                <div class="profile-icon">
-                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon.png" /> <!-- Photo -->
-                </div>
-              </div>
-
-              <div class="name">
-                <p>AYAKO YOKOYA</p> <!-- Name -->
-              </div>
-              <div class="aboutme">
-                <p>Creative Developer <span>(I wanna be...)</span></p> <!-- Profession -->
-              </div>
-
-              <div class="sns-btn-box">
-                <p>My sns accounts are...</p>
-                <a
-                  href="https://github.com/ayakoyokoya/"
-                  target="_blank"
-                  class="sns-btn"
-                >
-                  github <!-- Link to social media 1 -->
-                </a>
-                <a
-                  href="https://twitter.com/ayakoyokoya"
-                  target="_blank"
-                  class="sns-btn"
-                >
-                  twitter <!-- Link to social media 2 -->
-                </a>
-              </div>
-
-              <div class="portfolio-btn-box">
-                <p>
-                  Do you want to see error? <!-- Any text -->
-                </p>
-                <div class="portfolio">
-                  <button id="error-btn" class="error-btn">
-                    error?
-                  </button>
-                  <a
-                    href="https://ayakoyokoya.github.io/yaba-kawaii-audio-visualizer/dist/"
-                    target="_blank"
-                    class="portfolio-btn"
-                  >
-                    yes! 
-                  </a>
-                </div>
-              </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="all.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">Binabox</a>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li>
+            <a href="catalog.html" class="nav-link">Catalog</a>
+          </li>
+          <li>
+            <a href="contact-us.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <input type="text" size="2" />
+        <a href="link" class="button-discord" target="_blank">Discord</a>
+        <button class="button-blue" type="button">Connect</button>
+      </div>
+    </header>
+    <main>
+      <section class="statistic">
+        <h1 class="statistic-baner">WITH BINABOX EXPLORE NFT COLLECTION</h1>
+        <p class="statistic-title">
+          We are tne best way to check the rarity on NTF collection
+        </p>
+        <dl class="definition">
+          <dt class="definition-term">2240+</dt>
+          <dd class="definition-description">Total item</dd>
+          <dt class="definition-term">1000+</dt>
+          <dd class="definition-description">Profiles whitelisted</dd>
+        </dl>
+        <button type="button">Connect walet</button>
+        <button type="button">whitelist now</button>
+      </section>
+      <section class="catalog">
+        <div>
+          <h2><span class="folder-icon"></span>Catalog</h2>
+          <div></div>
+          <a href="catalog.html" class="link">See all</a>
+          <button type="button">&#8249;</button>
+          <button type="button">&#8250;</button>
+        </div>
+        <div class="catalog-list">
+          <div class="catalog-info-item">
+            <img src="url" alt="text" />
+            <span class="catalog-lable">NEW</span>
+            <span class="catalog-info-price">$199</span>
+            <span class="catalog-name-product">Name Product</span>
           </div>
+          <div class="catalog-info-item">
+            <img src="url" alt="text" />
+            <span class="catalog-lable">NEW</span>
+            <span class="catalog-info-price">$199</span>
+            <span class="catalog-name-product">Name Product</span>
+          </div>
+          <div class="catalog-info-item">
+            <img src="url" alt="text" />
+            <span class="catalog-lable">Sold out</span>
+            <span class="catalog-info-price">$199</span>
+            <span class="catalog-name-product">Name Product</span>
+          </div>
+          <div class="catalog-info-item">
+            <img src="url" alt="text" />
+            <span class="catalog-lable">NEW</span>
+            <span class="catalog-info-price">$199</span>
+            <span class="catalog-name-product">Name Product</span>
+          </div>
+          <div class="catalog-info-item">
+            <img src="url" alt="text" />
+            <span class="catalog-lable">NEW</span>
+            <span class="catalog-info-price">$199</span>
+            <span class="catalog-name-product">Name Product</span>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <h2 class="blog-name">Our blog</h2>
+        <div class="blog-list">
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+          <article class="blog-post">
+            <img src="#" alt="text" />
+            <span class="post-lable">NTF</span>
+            <div class="post-info">
+              <span class="post-author">Tony Nguyen</span>
+              <span class="post-date">20 Jun 2022</span>
+            </div>
+            <div class="post-title">
+              <h3 class="post-title-name">Sonic live</h3>
+              <p class="post-content">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdict
+              </p>
+            </div>
+            <a class="link" href="blog.html">Read more</a>
+          </article>
+        </div>
+        <button type="button">Read more</button>
+      </section>
+      <section class="about-as">
+        <h2 class="about-as-title">About us</h2>
+        <p class="about-as-text">
+          Duls aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat
+          not prodient, sunt in culpa qui officia dese runt molit anim id est
+          laborum velit esse cillium dolore eu fugiat nulla pariatu epteur sint
+          occaecat.
+        </p>
+        <div class="about-as-description">
+          <div class="about-as-item">
+            <h3 class="about-as-list">High quality</h3>
+            <p class="about-as-list-text">
+              Lorem ipsum is simply dummy text of the printing and ipsum
+              typesetting industry.
+            </p>
+          </div>
+          <div class="about-as-item">
+            <h3 class="about-as-list">Big collection</h3>
+            <p class="about-as-list-text">
+              Lorem ipsum is simply dummy text of the printing and ipsum
+              typesetting industry.
+            </p>
+          </div>
+          <div class="about-as-item">
+            <h3 class="about-as-list">Top resourse</h3>
+            <p class="about-as-list-text">
+              Lorem ipsum is simply dummy text of the printing and ipsum
+              typesetting industry.
+            </p>
+          </div>
+          <div class="about-as-item">
+            <h3 class="about-as-list">Big Community</h3>
+            <p class="about-as-list-text">
+              Lorem ipsum is simply dummy text of the printing and ipsum
+              typesetting industry.
+            </p>
+          </div>
+        </div>
+        <button type="button">Read more</button>
+      </section>
+      <section class="our-team">
+        <h2>Our team</h2>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p>Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="faqs">
+        <h2>FAQs</h2>
+        <div class="details">
+          <details>
+            <summary>What are the NTFs?</summary>
+            <p>
+              Urna vitae erat et lacus, consectetur ac nulla vestibulum
+              lobortic. Nula dapibus urna volutpat vestibulum lobortic. Nulla
+              dapibus urna volutpat venenatis, risus faucibus.
+            </p>
+          </details>
+          <details>
+            <summary>How do i get NTFs?</summary>
+          </details>
+          <details>
+            <summary>How can we buy your NTFs?</summary>
+          </details>
+          <details>
+            <summary>Who are the team behind the project?</summary>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <a href="#">Binabox</a>
+          <p>We are the best way to check the rarity of NFT collection.</p>
+        </div>
+        <div class="footer-menu">
+          <ul class="menu-list-subscribe">
+            <li class="title-menu-subscribe">Subscribe</li>
+            <li>
+              <a href="#" class="menu-item">Home</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Catalog</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Contact us</a>
+            </li>
+          </ul>
+          <ul class="menu-list-company">
+            <li class="title-menu-company">Company</li>
+            <li>
+              <a href="#" class="menu-item">Terms Canditions</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Whitepaper</a>
+            </li>
+            <li>
+              <a href="#" class="menu-item">Help Center</a>
+            </li>
+          </ul>
         </div>
       </div>
-
-      <template id="template">
-        <div class="error">
-          <div class="folder folder_error">
-            <div class="title">
-              Error
-              <span class="title-btn">
-                <span class="btn1"></span>
-                <span class="btn2"></span>
-                <span class="btn3"></span>
-              </span>
-            </div>
-
-            <div class="body">
-              <div class="profile-icon-box">
-                <div class="profile-icon">
-                    <img src="https://assets.codepen.io/4292193/ayakoyokoya_icon2.png" />
-                </div>
-              </div>
-
-              <div class="name">
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <p>error!!!!</p>
-                <button class="ok-error-btn" onclick="window.location.reload();">OK...</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </template>
-      <!-- <script src="script.js"></script> --> <!-- uncomment script --> 
-</body>
+      <div class="footer-bottom">
+        <p>BINABOX 2022 - ALL rights reserved</p>
+        <ul class="footer-bottom-links">
+          <li><a href="#" target="_blank">Twitter</a></li>
+          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">Telegram</a></li>
+          <li><a href="#" target="_blank">Youtude</a></li>
+          <li><a href="#" target="_blank">Tiktok</a></li>
+          <li><a href="#" target="_blank">Discord</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
