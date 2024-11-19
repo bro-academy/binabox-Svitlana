@@ -6,6 +6,13 @@ body {
   font-size: 18px;
   line-height: 28px;
 }
+
+header {
+  padding: 32px;
+  text-align: start;
+  display: flex;
+}
+
 .logo {
   color: #ffffff;
   font-family: Bakbak One;
@@ -19,12 +26,35 @@ body {
   left: 52px;
   gap: 0px;
   opacity: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: auto;
 }
-.navigation {
-  width: 401px;
-  height: 40px;
-  gap: var;
-  opacity: 0px;
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #f5f8fb;
+  text-decoration-line: none;
+}
+
+.button-discord {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration-line: none;
+  color: #f5f8fb;
 }
 
 .button {
@@ -42,7 +72,7 @@ body {
   font-weight: 600;
   font-style: normal;
 }
-.button--blue {
+.button-blue {
   background-color: #0265dc;
   color: #f5f8fb;
   font-family: "Poppins", serif;
@@ -52,4 +82,267 @@ body {
   border-style: solid;
   border-color: #0265dc;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: Bakbak One;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #f5f8fb;
+}
+
+.statistic-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #f5f8fb;
+}
+dt {
+  font-family: Bakbak One;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
+  text-shadow: 4px 13px #ffffff66;
+}
+dd {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #eff5fad1;
+}
+
+.header-categories {
+  width: Fill (1, 600px) px;
+  height: Hug (48px) px;
+  gap: var(--Spacing32);
+  opacity: 0px;
+}
+
+.folder-icon {
+  font-family: Bakbak One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.create-line {
+  width: 1167px;
+  height: 2px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  background: var(--Elements-SeporatorBold-invert, #d0d7fb2b);
+}
+.catalog-label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0265dc;
+  background-color: #f5f8fb;
+  padding: 8px 10px 8px 10px;
+}
+
+.catalog-label-orange {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+  background-color: #ea3829;
+  padding: 8px 10px 8px 10px;
+}
+.catalog-info-price {
+  font-family: Bakbak One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+
+.catalog-name-product {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #eff5fad1;
+}
+h2 {
+  font-family: Bakbak One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f8f7ff;
+}
+.post-label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0265dc;
+  padding: 8px 10px 8px 10px;
+  background-color: #f5f8fb;
+}
+.post-info {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #eff5fad1;
+}
+.post-title-name {
+  font-family: Bakbak One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.post-content {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #eff5fad1;
+}
+.link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration-line: none;
+  color: #f5f8fb;
+  border: solid 2px #d0d7fb2b;
+  padding: 8px 20px 8px 20px;
+}
+.about-as-text {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #eff5fad1;
+  width: 960px;
+  height: 84px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+}
+.about-as-list {
+  font-family: Bakbak One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.about-as-item {
+  background-color: #1a1925;
+  width: 464px;
+  height: 232px;
+  min-width: 328px;
+  padding: var(--Spacing32);
+  gap: 0px;
+}
+
+.about-as-description {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #eff5fad1;
+}
+
+.our-team {
+  width: 1, 728px;
+  height: 888px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.team-item {
+  width: 293px;
+  height: 316px;
+  min-width: 293px;
+  padding: 32px;
+  gap: 16px;
+  opacity: 0px;
+  background-color: #1d1c28;
+}
+
+h3 {
+  font-family: Bakbak One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.team-list-social {
+  display: flex;
+  justify-content: center;
+}
+.team-list-social a {
+  margin: 0 10px;
+}
+.team-list-social img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+
+.team-list-social a:hover img {
+  transform: scale(1.2);
 }
