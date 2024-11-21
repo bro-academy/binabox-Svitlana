@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #0d0d15;
   margin: 0;
@@ -302,14 +305,6 @@ h2 {
   color: #eff5fad1;
 }
 
-.our-team {
-  width: 1, 728px;
-  height: 888px;
-  opacity: 0px;
-  display: flex;
-  justify-content: center;
-}
-
 .team-item {
   width: 293px;
   height: 316px;
@@ -330,12 +325,13 @@ h3 {
   text-decoration-skip-ink: none;
   color: #f5f8fb;
 }
-.team-list-social {
-  display: flex;
-  justify-content: center;
+.team-status {
+  text-align: center;
 }
+
 .team-list-social a {
   margin: 0 10px;
+  text-align: center;
 }
 .team-list-social img {
   width: 32px;
@@ -345,4 +341,99 @@ h3 {
 
 .team-list-social a:hover img {
   transform: scale(1.2);
+}
+
+details {
+  width: 960px;
+  height: 80px;
+  background-color: #1d1c28;
+}
+
+summary {
+  font-family: Bakbak One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  list-style-type: none;
+  color: #f5f8fb;
+}
+.summary-descrioption {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.footer-logo-name {
+  font-family: Bakbak One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: #0265dc;
+}
+.footer-slogan {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.menu-list {
+  list-style-type: none;
+}
+.title-menu {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+.menu-item {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+.footer-bottom {
+  border-top: 1px solid;
+  border-color: #bfc5ee1f;
+}
+.footer-copyright-sign {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5f8fb;
+}
+
+.footer-bottom-links {
+  list-style-type: none;
+  text-decoration-line: none;
+  text-align: left;
 }
