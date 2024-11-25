@@ -54,8 +54,6 @@ header {
   font-weight: 600;
   line-height: 28px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-decoration-line: none;
   color: #f5f8fb;
 }
@@ -76,8 +74,6 @@ header {
   font-weight: 600;
   line-height: 28px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 h1 {
@@ -97,8 +93,6 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-decoration: none;
   color: #f5f8fb;
 }
@@ -128,8 +122,6 @@ h1 {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f5f8fb;
   border-bottom: 1px solid #bfc5ee1f;
 }
@@ -143,8 +135,6 @@ h1 {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-decoration: none;
   color: #f5f8fb;
 }
@@ -159,8 +149,6 @@ h1 {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-decoration: none;
   color: #f5f8fb;
 }
@@ -178,8 +166,6 @@ h1 {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #ffffff;
 }
 h2 {
@@ -189,8 +175,6 @@ h2 {
   line-height: 48px;
   letter-spacing: -0.5px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 .button-gaming {
@@ -199,8 +183,6 @@ h2 {
   font-weight: 600;
   line-height: 28px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f5f8fb;
   width: 122px;
   height: 48px;
@@ -212,29 +194,26 @@ h2 {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #eff5fad1;
 }
+
 .post-date {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #eff5fad1;
 }
+
 .blog-text {
   font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
+
 .blue-link {
   color: #78bbfa;
   text-decoration: none;
@@ -248,8 +227,6 @@ h2 {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 .quote {
@@ -265,8 +242,6 @@ h2 {
   font-weight: 600;
   line-height: 30px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   text-transform: capitalize;
   color: #f8f7ff;
   padding-top: 16px;
@@ -279,8 +254,6 @@ h2 {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #eff5fad1;
 }
 .rating-name {
@@ -289,8 +262,6 @@ h2 {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 h3 {
@@ -299,8 +270,6 @@ h3 {
   font-weight: 400;
   line-height: 36px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 .description-item {
@@ -309,8 +278,6 @@ h3 {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 .binance-link {
@@ -324,8 +291,6 @@ h3 {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f8f7ff;
 }
 
@@ -341,8 +306,6 @@ h3 {
   font-weight: 600;
   line-height: 20px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
   color: #f5f8fb;
   text-decoration: none;
   border: 2px solid #d0d7fb2b;
@@ -355,4 +318,62 @@ h3 {
 .link-social {
   border: 2px solid #d0d7fb2b;
   padding: 8px;
+}
+.footer-logo-name {
+  font-family: Bakbak One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: #0265dc;
+}
+.footer-slogan {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #f5f8fb;
+}
+.menu-list {
+  list-style-type: none;
+}
+
+.title-menu {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #f5f8fb;
+}
+.menu-item {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+.footer-bottom {
+  border-top: 1px solid;
+  border-color: #bfc5ee1f;
+}
+.footer-copyright-sign {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #f5f8fb;
+}
+
+.footer-bottom-links {
+  list-style-type: none;
+  text-decoration-line: none;
+  text-align: left;
 }
