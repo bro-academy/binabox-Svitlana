@@ -43,7 +43,7 @@ img {
   width: 188px;
   padding-left: 44px;
 }
-.search__input {
+.search-input {
   color: #f5f8fb;
 }
 
@@ -121,7 +121,7 @@ h1 {
 
 dt {
   font: 44px/56px var(--font-secondary);
-  text-shadow: 1px 0 10px #ffffff;
+  text-shadow: 2px 2px 4px #ffffff;
 }
 
 dd {
@@ -308,12 +308,15 @@ summary::after {
 details[open] summary::after {
   content: "-";
 }
+
 .faqs p {
   position: relative;
   padding: 20px 30px;
   margin: 0;
+  border-top: 1px solid rgba(191, 197, 238, 0.12);
 }
-.faqs p::before {
+
+/* .faqs p::before {
   content: "";
   position: absolute;
   top: 0;
@@ -322,7 +325,7 @@ details[open] summary::after {
   z-index: 2;
   height: 2px;
   background-color: rgba(191, 197, 238, 0.12);
-}
+} */
 
 .footer-slogan {
   font-size: 14px;
