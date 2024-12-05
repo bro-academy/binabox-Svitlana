@@ -45,6 +45,18 @@ header {
   color: #f5f8fb;
 }
 
+.btn {
+  color: #f5f8fb;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(208, 215, 251, 0.17);
+  height: 48px;
+  padding: 10px 24px;
+}
+
 .button-discord {
   font-weight: 600;
   text-decoration-line: none;
