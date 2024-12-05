@@ -1,6 +1,16 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --font-secondary: "Bakbak One", Times New Roman, Georgia, serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
 body {
   background-color: #0d0d15;
   margin: 0;
@@ -17,21 +27,9 @@ header {
 }
 
 .logo {
-  color: #ffffff;
-  font-family: Bakbak One;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 42px;
-  text-align: left;
-  font-size: 32px;
-  width: 136px;
-  height: 42px;
   left: 52px;
-  gap: 0px;
-  opacity: 0px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: auto;
 }
 
 .navigation-list {
@@ -40,20 +38,15 @@ header {
 }
 
 .nav-link {
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  color: #f5f8fb;
   text-decoration-line: none;
+  color: #f5f8fb;
 }
 
 .button-discord {
-  font-family: Poppins;
-  font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
-  text-align: left;
   text-decoration-line: none;
   color: #f5f8fb;
 }
@@ -61,7 +54,6 @@ header {
 .button-connect {
   background-color: #0265dc;
   color: #f5f8fb;
-  font-family: "Poppins", serif;
   font-style: normal;
   border-width: 2px;
   border-style: solid;
@@ -70,14 +62,12 @@ header {
   position: relative;
   width: 159px;
   height: 48px;
-  font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
   text-align: center;
 }
 
 h1 {
-  font-family: Bakbak One;
+  font-family: var(--font-secondary);
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
@@ -89,7 +79,6 @@ h1 {
   list-style-type: none;
 }
 .blog-nav a {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -102,26 +91,19 @@ h1 {
 .sidebar-box {
   width: 328px;
   height: 384px;
-  padding: var(--Spacing24);
-  gap: var(--Spacing16);
-  opacity: 0px;
   background-color: #1d1c28;
 }
 .sidebar-box-tag {
   width: 328px;
   height: 184px;
-  padding: var(--Spacing24);
-  gap: var(--Spacing16);
-  opacity: 0px;
   background-color: #1d1c28;
 }
 
 .sidebar-title {
-  font-family: Bakbak One;
+  font-family: var(--font-secondary);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
-  text-align: left;
   color: #f5f8fb;
   border-bottom: 1px solid #bfc5ee1f;
 }
@@ -129,106 +111,81 @@ h1 {
 .sidebar-list {
   list-style-type: none;
 }
+
 .sidebar-link {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: left;
   text-decoration: none;
   color: #f5f8fb;
 }
+
 .sidebar-list-tag {
   list-style-type: none;
   display: flex;
   gap: 8px;
 }
+
 .sidebar-link-tag {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: left;
   text-decoration: none;
   color: #f5f8fb;
 }
+
 .sidebar-link-tag {
   border: 2px solid #d0d7fb2b;
   padding: 6px 12px 6px 12px;
 }
+
 .blog-post {
   width: 920px;
   height: 2, 528px;
 }
+
 .figcaption {
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  text-align: left;
   color: #ffffff;
 }
+
 h2 {
-  font-family: Bakbak One;
+  font-family: var(--font-secondary);
   font-size: 36px;
-  font-weight: 400;
   line-height: 48px;
   letter-spacing: -0.5px;
-  text-align: left;
   color: #f8f7ff;
 }
 .button-gaming {
-  font-family: Poppins;
-  font-size: 18px;
   font-weight: 600;
-  line-height: 28px;
   text-align: center;
   color: #f5f8fb;
   width: 122px;
   height: 48px;
   background-color: #0265dc;
 }
-.post-autor {
-  font-family: Poppins;
+.post-info {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: left;
   color: #eff5fad1;
-}
-
-.post-date {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  text-align: left;
-  color: #eff5fad1;
-}
-
-.blog-text {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
 }
 
 .blue-link {
   color: #78bbfa;
   text-decoration: none;
 }
+
 .list-name {
   list-style-type: none;
 }
+
 .list-item {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
   color: #f8f7ff;
 }
+
 .quote {
   width: 920px;
   height: 120px;
@@ -236,61 +193,50 @@ h2 {
   opacity: 0px;
   background-color: #002754;
 }
+
 .quote-item {
-  font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
-  text-align: left;
   text-transform: capitalize;
   color: #f8f7ff;
   padding-top: 16px;
   padding-left: 16px;
   margin: auto;
 }
+
 .rating-scale {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: left;
-  color: #eff5fad1;
+  color: rgba(239, 245, 250, 0.82);
 }
+
 .rating-name {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  text-align: left;
   color: #f8f7ff;
 }
+
 h3 {
-  font-family: Bakbak One;
+  font-family: var(--font-secondary);
   font-size: 28px;
-  font-weight: 400;
   line-height: 36px;
-  text-align: left;
   color: #f8f7ff;
 }
+
 .description-item {
-  font-family: Poppins;
-  font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  text-align: left;
   color: #f8f7ff;
 }
+
 .binance-link {
   color: #f8f7ff;
   text-decoration: none;
 }
 
 .blog-footer-title {
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
   color: #f8f7ff;
 }
 
@@ -301,7 +247,6 @@ h3 {
 }
 
 .link-tag {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -311,46 +256,44 @@ h3 {
   border: 2px solid #d0d7fb2b;
   padding: 6px 12px 6px 12px;
 }
+
 .blog-footer-social {
   list-style-type: none;
   display: flex;
 }
+
 .link-social {
   border: 2px solid #d0d7fb2b;
   padding: 8px;
 }
 .footer-logo-name {
-  font-family: Bakbak One;
+  font-family: var(--font-secondary);
   font-size: 32px;
   font-weight: 400;
   line-height: 42px;
-  text-align: left;
   text-transform: uppercase;
   text-decoration-line: none;
   color: #0265dc;
 }
+
 .footer-slogan {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  text-align: left;
   color: #f5f8fb;
 }
+
 .menu-list {
   list-style-type: none;
 }
 
 .title-menu {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
-  line-height: 28px;
-  text-align: left;
   color: #f5f8fb;
 }
+
 .menu-item {
-  font-family: Poppins;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -359,21 +302,20 @@ h3 {
   text-decoration: none;
   color: #f5f8fb;
 }
+
 .footer-bottom {
   border-top: 1px solid;
   border-color: #bfc5ee1f;
 }
+
 .footer-copyright-sign {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  text-align: left;
   color: #f5f8fb;
 }
 
 .footer-bottom-links {
   list-style-type: none;
   text-decoration-line: none;
-  text-align: left;
 }
