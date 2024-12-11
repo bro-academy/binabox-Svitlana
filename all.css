@@ -17,11 +17,7 @@ img {
   height: auto;
   vertical-align: top;
 }
-.logo {
-  font-size: 0;
-  line-height: 0;
-  margin: 0;
-}
+
 .navigation {
   font-size: 16px;
   font-weight: 600;
@@ -36,9 +32,7 @@ img {
   text-decoration: none;
 }
 .search {
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgba(208, 215, 251, 0.17);
+  border: 2px solid rgba(208, 215, 251, 0.17);
   height: 48px;
   width: 188px;
   padding-left: 44px;
@@ -62,40 +56,35 @@ img {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgba(208, 215, 251, 0.17);
-  height: 48px;
-  padding: 10px 24px;
-}
-.button-discord {
+  text-align: center;
   text-decoration: none;
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-2 {
+  color: #f5f8fb;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  padding: 8px 20px 8px 20px;
 }
 
 .button-connect {
   background-color: #0265dc;
   border-color: #0265dc;
-  width: 159px;
-  height: 48px;
 }
+
 .button-connect-walet {
-  width: 190px;
-  height: 48px;
-  background: #0265dc;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #0265dc;
+  background-color: #0265dc;
+  border: 2px solid #0265dc;
 }
 
 .button-whitelist-now {
-  text-align: center;
-  color: #f5f8fb;
-  width: 172px;
-  height: 48px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #d0d7fb;
-  background: #0d0d15;
+  background-color: #0d0d15;
 }
 
 h1 {
@@ -104,6 +93,15 @@ h1 {
   color: #f5f8fb;
   margin: 0 0 20px;
 }
+
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #f8f7ff;
+}
+
 .baner-blue {
   color: #0265dc;
 }
@@ -125,19 +123,20 @@ dt {
 }
 
 dd {
-  color: #eff5fad1;
+  color: #eff5fa;
 }
 
 .folder-icon {
   font: 24px/32px var(--font-secondary);
   color: #f8f7ff;
+  text-align: left;
 }
 
 .catalog-label {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: right;
+  text-align: center;
   color: #0265dc;
   background-color: #f5f8fb;
 }
@@ -146,7 +145,7 @@ dd {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: right;
+  text-align: center;
   color: #f5f8fb;
   background-color: #ea3829;
 }
@@ -167,18 +166,19 @@ dd {
   color: #eff5fad1;
 }
 
-h2 {
+/* h2 {
   font-family: var(--font-secondary);
   font-size: 36px;
   line-height: 48px;
   text-align: center;
   color: #f8f7ff;
-}
+} */
+
 .post-label {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  text-align: right;
+  text-align: center;
   color: #0265dc;
   padding: 8px 10px 8px 10px;
   background-color: #f5f8fb;
@@ -201,26 +201,6 @@ h2 {
   font-weight: 400;
   line-height: 24px;
   color: #eff5fa;
-}
-.link {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  text-align: center;
-  text-decoration: none;
-  color: #f5f8fb;
-  border: solid 2px #d0d7fb;
-  padding: 8px 20px 8px 20px;
-}
-
-.button-read-more {
-  text-align: center;
-  color: #f5f8fb;
-  border: 2px solid #d0d7fb;
-  background-color: #0d0d15;
-  width: 149px;
-  height: 48px;
-  text-decoration: none;
 }
 
 .about-as-text {
