@@ -50,6 +50,8 @@ header {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
+  text-decoration-line: none;
+  text-align: center;
   border-width: 2px;
   border-style: solid;
   border-color: rgba(208, 215, 251, 0.17);
@@ -57,25 +59,10 @@ header {
   padding: 10px 24px;
 }
 
-.button-discord {
-  font-weight: 600;
-  text-decoration-line: none;
-  color: #f5f8fb;
-}
-
 .button-connect {
   background-color: #0265dc;
-  color: #f5f8fb;
-  font-style: normal;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #0265dc;
   box-sizing: border-box;
   position: relative;
-  width: 159px;
-  height: 48px;
-  font-weight: 600;
-  text-align: center;
 }
 
 h1 {
@@ -171,13 +158,9 @@ h2 {
   color: #f8f7ff;
 }
 .button-gaming {
-  font-weight: 600;
-  text-align: center;
-  color: #f5f8fb;
-  width: 122px;
-  height: 48px;
   background-color: #0265dc;
 }
+
 .post-info {
   font-size: 14px;
   font-weight: 600;
