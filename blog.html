@@ -6,20 +6,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="all.css" />
+    <link rel="stylesheet" href="blog.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="index.html">Binabox</a>
+      <a class="logo" href="index.html">
+        <img src="assets/logo-blue.svg" alt="Binabox" width="188" height="44" />
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -38,8 +36,8 @@
       </nav>
       <div>
         <input type="text" size="2" />
-        <a href="link" class="button-discord" target="_blank">Discord</a>
-        <button class="button-blue" type="button">Connect</button>
+        <a href="#" class="btn" target="_blank">Discord</a>
+        <button class="btn" type="button">Connect</button>
       </div>
     </header>
     <main>
@@ -53,7 +51,7 @@
             <a href="blog.html" class="blog-nav-link">Our blog</a>
           </li>
           <li>
-            <a href="basilisks.html" class="blog-nav-link">The Basilisks</a>
+            <a href="basilisks.html" class="blog-nav-link">The Basilisks HFT</a>
           </li>
         </ul>
       </section>
@@ -61,6 +59,7 @@
         <aside class="sidebar">
           <div class="sidebar-box">
             <p class="sidebar-title">Categories</p>
+            <div class="create-line"></div>
             <ul class="sidebar-list">
               <li><a href="#" class="sidebar-link">Our blog (12)</a></li>
               <li><a href="#" class="sidebar-link">Metaverse (24)</a></li>
@@ -71,9 +70,10 @@
               <li><a href="#" class="sidebar-link">Crypto (430)</a></li>
             </ul>
           </div>
-          <div class="sidebar-box">
+          <div class="sidebar-box-tag">
             <p class="sidebar-title">Tag</p>
-            <ul class="sidebar-list">
+            <div class="create-line"></div>
+            <ul class="sidebar-list-tag">
               <li><a href="#" class="sidebar-link-tag">NFT</a></li>
               <li><a href="#" class="sidebar-link-tag">ICO</a></li>
               <li><a href="#" class="sidebar-link-tag">Robot</a></li>
@@ -89,15 +89,15 @@
             <figcaption>Photo caption</figcaption>
           </figure>
           <h2>The Basilisks NFT</h2>
-          <button class="button-blue" type="button">Gaming</button>
+          <button class="btn button-gaming" type="button">Gaming</button>
           <div class="post-info">
             <span class="post-autor">Tony Nguyen</span>
             <span class="post-date">20 Jun 2022</span>
           </div>
           <p class="blog-text">
             The Basilisks that players collect are represented with NFTs on
-            Ethereum’s blockchain with real-world value. Players use
-            <a href="#">the Basilisks they have</a>
+            Ethereum’s blockchain with real-world value. Players use the
+            <a href="#" class="blue-link">Basilisks they have</a>
             gathered to battle other players to win ether (ETH). In Balthazar
             Dragons, players are immersed in a 3D open world to explore and
             capture dragon-like beasts called Basilisks. Balthazar Dragons is an
@@ -116,32 +116,33 @@
               In Balthazar Dragons, players are immersed in a 3D open world to
               explore and capture dragon-like beasts called Basilisks. Balthazar
               Dragons is an upcoming fantasy role-playing
-              <a href="#">game developed</a> on the Ethereum blockchain by a
-              decentralized autonomous organization (DAO) called the Balthazar
-              DAO.
+              <a href="#" class="blue-link">game developed</a> on the Ethereum
+              blockchain by a decentralized autonomous organization (DAO) called
+              the Balthazar DAO.
             </li>
           </ul>
           <ul class="list-name">
             <li class="list-item">
-              <img src="#" alt="blog-logo" />list name 1
+              <img src="#" alt="blog-logo" />List name 1
             </li>
             <li class="list-item">
-              <img src="#" alt="blog-logo" />list name 2
+              <img src="#" alt="blog-logo" />List name 2
             </li>
             <li class="list-item">
-              <img src="#" alt="blog-logo" />list name 3
+              <img src="#" alt="blog-logo" />List name 3
             </li>
             <li class="list-item">
-              <img src="#" alt="blog-logo" />list name 4
+              <img src="#" alt="blog-logo" />List name 4
             </li>
           </ul>
           <div class="quote">
             <blockquote class="quote-item">
-              “The First Huge Metaverse Arena To Arrange Live Sports, Hang Out
-              And Even Make Bets And Wagers”
+              “The first huge metaverse arena to arrange live sports, hang out
+              and even make bets and wagers”
             </blockquote>
             <img src="#" alt="star" />
-            <span class="rating">8.5/10 Markout Co rporation</span>
+            <span class="rating-scale">8.5/10</span>
+            <span class="rating-name">Markout Corporation</span>
           </div>
           <div class="dragons-image">
             <figure>
@@ -184,15 +185,15 @@
         </div>
         <div class="blog-footer">
           <span class="blog-footer-title">Tags:</span>
-          <ul>
+          <ul class="blog-footer-list">
             <li><a href="#" class="link-tag">NFT</a></li>
             <li><a href="#" class="link-tag">ICO</a></li>
             <li><a href="#" class="link-tag">Crypto</a></li>
           </ul>
           <span class="blog-footer-title">Share:</span>
-          <ul>
+          <ul class="blog-footer-social">
             <li>
-              <a href="#"
+              <a href="#" class="link-social"
                 ><img
                   src="img/twitter.svg"
                   width="40"
@@ -201,7 +202,7 @@
               /></a>
             </li>
             <li>
-              <a href="#"
+              <a href="#" class="link-social"
                 ><img
                   src="img/Facebook.svg"
                   width="40"
@@ -210,7 +211,7 @@
               /></a>
             </li>
             <li>
-              <a href="#"
+              <a href="#" class="link-social"
                 ><img
                   src="img/instagram.svg"
                   width="40"
@@ -229,7 +230,7 @@
           <p>We are the best way to check the rarity of NFT collection.</p>
         </div>
         <div class="footer-menu">
-          <ul class="menu-list-subscribe">
+          <ul class="menu-list">
             <li class="title-menu-subscribe">Subscribe</li>
             <li>
               <a href="#" class="menu-item">Home</a>
@@ -244,7 +245,7 @@
               <a href="#" class="menu-item">Contact us</a>
             </li>
           </ul>
-          <ul class="menu-list-company">
+          <ul class="menu-list">
             <li class="title-menu-company">Company</li>
             <li>
               <a href="#" class="menu-item">Terms Canditions</a>

@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-secondary: "Bakbak One", Times New Roman, Georgia, serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+body {
+  background-color: #0d0d15;
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #f5f8fb;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+header {
+  padding: 32px;
+  text-align: start;
+  display: flex;
+}
+
+.logo {
+  left: 52px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: #f5f8fb;
+}
+
+.btn {
+  color: #f5f8fb;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-decoration-line: none;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(208, 215, 251, 0.17);
+  height: 48px;
+  padding: 10px 24px;
+}
+
+.button-connect {
+  background-color: #0265dc;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #f5f8fb;
+}
+.blog-nav {
+  list-style-type: none;
+}
+.blog-nav a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+.blog-nav > li:last-child a {
+  color: #e7eef7a8;
+}
+.sidebar-box {
+  width: 328px;
+  height: 384px;
+  background-color: #1d1c28;
+}
+.sidebar-box-tag {
+  width: 328px;
+  height: 184px;
+  background-color: #1d1c28;
+}
+
+.sidebar-title {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f5f8fb;
+  border-bottom: 1px solid #bfc5ee1f;
+}
+
+.sidebar-list {
+  list-style-type: none;
+}
+
+.sidebar-link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+
+.sidebar-list-tag {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.sidebar-link-tag {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+
+.sidebar-link-tag {
+  border: 2px solid #d0d7fb2b;
+  padding: 6px 12px 6px 12px;
+}
+
+.blog-post {
+  width: 920px;
+  height: 2, 528px;
+}
+
+.figcaption {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  color: #f8f7ff;
+}
+.button-gaming {
+  background-color: #0265dc;
+}
+
+.post-info {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #eff5fad1;
+}
+
+.blue-link {
+  color: #78bbfa;
+  text-decoration: none;
+}
+
+.list-name {
+  list-style-type: none;
+}
+
+.list-item {
+  color: #f8f7ff;
+}
+
+.quote {
+  width: 920px;
+  height: 120px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #002754;
+}
+
+.quote-item {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #f8f7ff;
+  padding-top: 16px;
+  padding-left: 16px;
+  margin: auto;
+}
+
+.rating-scale {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(239, 245, 250, 0.82);
+}
+
+.rating-name {
+  color: #f8f7ff;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-size: 28px;
+  line-height: 36px;
+  color: #f8f7ff;
+}
+
+.description-item {
+  font-weight: 400;
+  color: #f8f7ff;
+}
+
+.binance-link {
+  color: #f8f7ff;
+  text-decoration: none;
+}
+
+.blog-footer-title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f8f7ff;
+}
+
+.blog-footer-list {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.link-tag {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #f5f8fb;
+  text-decoration: none;
+  border: 2px solid #d0d7fb2b;
+  padding: 6px 12px 6px 12px;
+}
+
+.blog-footer-social {
+  list-style-type: none;
+  display: flex;
+}
+
+.link-social {
+  border: 2px solid #d0d7fb2b;
+  padding: 8px;
+}
+.footer-logo-name {
+  font-family: var(--font-secondary);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  color: #0265dc;
+}
+
+.footer-slogan {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f5f8fb;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.title-menu {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f5f8fb;
+}
+
+.menu-item {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #f5f8fb;
+}
+
+.footer-bottom {
+  border-top: 1px solid;
+  border-color: #bfc5ee1f;
+}
+
+.footer-copyright-sign {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #f5f8fb;
+}
+
+.footer-bottom-links {
+  list-style-type: none;
+  text-decoration-line: none;
+}
