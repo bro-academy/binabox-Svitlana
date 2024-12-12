@@ -6,10 +6,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
@@ -18,8 +14,10 @@
     <title>Home page</title>
   </head>
   <body>
-    <header>
-      <a class="logo" href="#">Binabox</a>
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="assets/logo-white.svg" alt="logo" width="188" height="44" />
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -36,15 +34,38 @@
           </li>
         </ul>
       </nav>
-      <div>
-        <input type="text" size="2" />
-        <a href="link" class="button-discord" target="_blank">Discord</a>
-        <button class="button-blue" type="button">Connect</button>
+      <div class="group-buttons">
+        <form class="search">
+          <button type="submit" method="post" class="search-btn">
+            <svg
+              class="btn-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19L14.65 14.65M17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z"
+                stroke="#F5F8FB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="accessibility"> Search </span>
+          </button>
+          <input type="search" class="search-input" placeholder="Search" />
+        </form>
+        <a href="#" class="btn btn-secondary" target="_blank">Discord</a>
+        <button class="btn btn-primary" type="button">Connect</button>
       </div>
     </header>
     <main>
       <section class="statistic">
-        <h1 class="statistic-baner">WITH BINABOX EXPLORE NFT COLLECTION</h1>
+        <h1 class="statistic-baner">
+          WITH <span class="baner-blue">BINABOX</span> EXPLORE NFT COLLECTION
+        </h1>
         <p class="statistic-title">
           We are tne best way to check the rarity on NTF collection
         </p>
@@ -54,45 +75,45 @@
           <dt class="definition-term">1000+</dt>
           <dd class="definition-description">Profiles whitelisted</dd>
         </dl>
-        <button type="button">Connect walet</button>
-        <button type="button">whitelist now</button>
+        <button class="btn btn-primary" type="button">Connect walet</button>
+        <button class="btn btn-secondary" type="button">Whitelist now</button>
       </section>
       <section class="catalog">
-        <div>
-          <h2><span class="folder-icon"></span>Catalog</h2>
-          <div></div>
-          <a href="catalog.html" class="link">See all</a>
-          <button type="button">&#8249;</button>
-          <button type="button">&#8250;</button>
+        <div class="header-categories">
+          <h2 class="folder-icon">Catalog</h2>
+          <div class="create-line"></div>
+          <a href="catalog.html" class="btn btn-secondary">See all</a>
+          <button class="btn btn-secondary" type="button">&#8249;</button>
+          <button class="btn btn-primary" type="button">&#8250;</button>
         </div>
         <div class="catalog-list">
           <div class="catalog-info-item">
             <img src="url" alt="text" />
-            <span class="catalog-lable">NEW</span>
+            <span class="label label-basic">NEW</span>
             <span class="catalog-info-price">$199</span>
             <span class="catalog-name-product">Name Product</span>
           </div>
           <div class="catalog-info-item">
             <img src="url" alt="text" />
-            <span class="catalog-lable">NEW</span>
+            <span class="label label-basic">NEW</span>
             <span class="catalog-info-price">$199</span>
             <span class="catalog-name-product">Name Product</span>
           </div>
           <div class="catalog-info-item">
             <img src="url" alt="text" />
-            <span class="catalog-lable">Sold out</span>
+            <span class="label label-color">Sold out</span>
             <span class="catalog-info-price">$199</span>
             <span class="catalog-name-product">Name Product</span>
           </div>
           <div class="catalog-info-item">
             <img src="url" alt="text" />
-            <span class="catalog-lable">NEW</span>
+            <span class="label label-basic">NEW</span>
             <span class="catalog-info-price">$199</span>
             <span class="catalog-name-product">Name Product</span>
           </div>
           <div class="catalog-info-item">
             <img src="url" alt="text" />
-            <span class="catalog-lable">NEW</span>
+            <span class="label label-basic">NEW</span>
             <span class="catalog-info-price">$199</span>
             <span class="catalog-name-product">Name Product</span>
           </div>
@@ -103,7 +124,7 @@
         <div class="blog-list">
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -115,11 +136,13 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -131,11 +154,13 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -147,11 +172,13 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -163,11 +190,13 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -179,11 +208,13 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
           <article class="blog-post">
             <img src="#" alt="text" />
-            <span class="post-lable">NTF</span>
+            <span class="label label-basic">NTF</span>
             <div class="post-info">
               <span class="post-author">Tony Nguyen</span>
               <span class="post-date">20 Jun 2022</span>
@@ -195,10 +226,12 @@
                 nulla imperdict
               </p>
             </div>
-            <a class="link" href="blog.html">Read more</a>
+            <a class="btn btn-small btn-secondary" href="blog.html"
+              >Read more</a
+            >
           </article>
         </div>
-        <button type="button">Read more</button>
+        <a class="btn btn-secondary" href="#">Read more</a>
       </section>
       <section class="about-as">
         <h2 class="about-as-title">About us</h2>
@@ -239,14 +272,14 @@
             </p>
           </div>
         </div>
-        <button type="button">Read more</button>
+        <a class="btn button-read-more" href="#">Read more</a>
       </section>
       <section class="our-team">
         <h2>Our team</h2>
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -283,7 +316,45 @@
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
+          <div class="team-list-social">
+            <a
+              href="https://www.Twitter.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="accessibility">Twitter</span></a
+            >
+            <a
+              href="https://www.facebook.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              href="https://www.Telegram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            <a
+              href="https://www.LinkedIn.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.Instagram.com/yourpage"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </div>
+        </div>
+        <div class="team-item">
+          <img src="#" alt="text" />
+          <h3>Jason Smith</h3>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -320,7 +391,7 @@
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -357,7 +428,7 @@
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -394,7 +465,7 @@
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -431,44 +502,7 @@
         <div class="team-item">
           <img src="#" alt="text" />
           <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
-          <div class="team-list-social">
-            <a
-              href="https://www.Twitter.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Twitter</a
-            >
-            <a
-              href="https://www.facebook.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Facebook</a
-            >
-            <a
-              href="https://www.Telegram.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Telegram</a
-            >
-            <a
-              href="https://www.LinkedIn.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-              >LinkedIn</a
-            >
-            <a
-              href="https://www.Instagram.com/yourpage"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Instagram</a
-            >
-          </div>
-        </div>
-        <div class="team-item">
-          <img src="#" alt="text" />
-          <h3>Jason Smith</h3>
-          <p>Co-Founder</p>
+          <p class="team-status">Co-Founder</p>
           <div class="team-list-social">
             <a
               href="https://www.Twitter.com/yourpage"
@@ -505,36 +539,42 @@
       </section>
       <section class="faqs">
         <h2>FAQs</h2>
-        <div class="details">
-          <details>
-            <summary>What are the NTFs?</summary>
-            <p>
-              Urna vitae erat et lacus, consectetur ac nulla vestibulum
-              lobortic. Nula dapibus urna volutpat vestibulum lobortic. Nulla
-              dapibus urna volutpat venenatis, risus faucibus.
-            </p>
-          </details>
-          <details>
-            <summary>How do i get NTFs?</summary>
-          </details>
-          <details>
-            <summary>How can we buy your NTFs?</summary>
-          </details>
-          <details>
-            <summary>Who are the team behind the project?</summary>
-          </details>
-        </div>
+        <details open>
+          <summary>What are the NTFs?</summary>
+          <p>
+            Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis.
+            Nulla dapibus urna volutpat venenatis, risus faucibus.
+          </p>
+        </details>
+        <details>
+          <summary>How do i get NTFs?</summary>
+        </details>
+        <details>
+          <summary>How can we buy your NTFs?</summary>
+        </details>
+        <details>
+          <summary>Who are the team behind the project?</summary>
+        </details>
       </section>
     </main>
     <footer class="footer">
       <div class="footer-top">
         <div class="footer-logo">
-          <a href="#">Binabox</a>
-          <p>We are the best way to check the rarity of NFT collection.</p>
+          <a href="#" class="footer-logo-name">
+            <img
+              src="assets/logo-blue.svg"
+              alt="BINABOX"
+              width="188"
+              height="44"
+            />
+          </a>
+          <p class="footer-slogan">
+            We are the best way to check the rarity of NFT collection.
+          </p>
         </div>
         <div class="footer-menu">
-          <ul class="menu-list-subscribe">
-            <li class="title-menu-subscribe">Subscribe</li>
+          <ul class="menu-list">
+            <li class="title-menu">Subscribe</li>
             <li>
               <a href="#" class="menu-item">Home</a>
             </li>
@@ -548,8 +588,8 @@
               <a href="#" class="menu-item">Contact us</a>
             </li>
           </ul>
-          <ul class="menu-list-company">
-            <li class="title-menu-company">Company</li>
+          <ul class="menu-list">
+            <li class="title-menu">Company</li>
             <li>
               <a href="#" class="menu-item">Terms Canditions</a>
             </li>
@@ -566,9 +606,25 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>BINABOX 2022 - ALL rights reserved</p>
+        <p class="footer-copyright-sign">BINABOX 2022 - ALL rights reserved</p>
         <ul class="footer-bottom-links">
-          <li><a href="#" target="_blank">Twitter</a></li>
+          <li>
+            <a href="#" target="_blank">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M27.644 14.1801C28.5011 13.6439 29.1424 12.7996 29.4482 11.8049C28.6428 12.3049 27.7616 12.6572 26.8428 12.8464C25.5688 11.4362 23.5504 11.093 21.9154 12.0086C20.2803 12.9242 19.4334 14.8719 19.8479 16.7633C16.5489 16.59 13.4753 14.9594 11.392 12.2771C10.3047 14.2395 10.8603 16.7481 12.6617 18.01C12.0103 17.9881 11.3734 17.8035 10.804 17.4717C10.804 17.4897 10.804 17.5077 10.804 17.5257C10.8043 19.5699 12.1811 21.3307 14.0959 21.7358C13.4917 21.9079 12.8579 21.9332 12.2429 21.8099C12.7814 23.558 14.3211 24.7556 16.076 24.7914C14.6225 25.9851 12.8276 26.6325 10.9799 26.6293C10.6524 26.6298 10.3252 26.6101 9.99988 26.5703C11.8761 27.8319 14.0599 28.5016 16.2902 28.4992C19.393 28.5215 22.3749 27.2415 24.5689 24.9455C26.7629 22.6494 27.9859 19.529 27.9643 16.2821C27.9643 16.096 27.9602 15.9109 27.9519 15.7268C28.7554 15.1191 29.449 14.3663 29.9999 13.5037C29.2513 13.851 28.4572 14.0789 27.644 14.1801Z"
+                  fill="#F5F8FB"
+                />
+              </svg>
+              <span class="accessibility"> Twitter </span>
+            </a>
+          </li>
           <li><a href="#" target="_blank">Facebook</a></li>
           <li><a href="#" target="_blank">Telegram</a></li>
           <li><a href="#" target="_blank">Youtude</a></li>
