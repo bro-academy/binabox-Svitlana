@@ -58,33 +58,22 @@ img {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
-  border: 2px solid rgba(208, 215, 251, 0.17);
   padding: 10px 20px 10px 20px;
 }
 
-.btn-2 {
-  color: #f5f8fb;
+.btn-small {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid rgba(208, 215, 251, 0.17);
-  padding: 8px 20px 8px 20px;
 }
 
-.button-connect {
-  background-color: #0265dc;
-  border-color: #0265dc;
-}
-
-.button-connect-walet {
+.btn-primary {
   background-color: #0265dc;
   border: 2px solid #0265dc;
 }
 
-.button-whitelist-now {
+.btn-secondary {
   background-color: #0d0d15;
+  border: 2px solid rgba(208, 215, 251, 0.17);
 }
 
 h1 {
@@ -132,20 +121,20 @@ dd {
   text-align: left;
 }
 
-.catalog-label {
+.label {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
   text-align: center;
+  padding: 8px 10px 8px 10px;
+}
+
+.label-basic {
   color: #0265dc;
   background-color: #f5f8fb;
 }
 
-.catalog-label-orange {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  text-align: center;
+.label-color {
   color: #f5f8fb;
   background-color: #ea3829;
 }
